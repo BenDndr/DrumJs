@@ -7,9 +7,11 @@
   background-image: url("img/Drum.jpg");
 }
 
-h1, h2, h3 {
-  color: white;
+h1 {
+  font-size: 80px;
+  font-family: 'Rock Salt', cursive;
 }
+
 
 .content {
   height: 100vh;
@@ -41,4 +43,13 @@ p {
   transform: scale(1.1);
   box-shadow: 0 0 30px 10px rgba(223, 87, 155, 1);
   border-color: rgb(223, 87, 155);
+}
+
+h1, h3 {
+  color: white;
+  text-shadow: rgb(223, 87, 155) 2px 5px;
+}
+
+.signature {
+  margin: 24px;
 }
