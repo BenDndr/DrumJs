@@ -1,0 +1,44 @@
+.keyboard {
+  justify-content: center;
+}
+
+.background {
+  height: 100vh;
+  background-image: url("img/Drum.jpg");
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+.content {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, .7);
+  height: 120px;
+  width: 120px;
+  border: white solid;
+  transition-duration: .07s;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: rgb(223, 87, 155);
+}
+
+.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px 10px rgba(223, 87, 155, 1);
+  border-color: rgb(223, 87, 155);
+}
